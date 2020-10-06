@@ -1,0 +1,38 @@
+ 
+nav{
+   height: 45px;
+   background-color: #fff;
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 2 solid wheat;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.06);  
+   }
+   nav>h1{
+       width: 13%;
+    text-align: center;
+   }
+ ul {
+     width: 50%;
+ display: flex;
+     
+   
+    justify-content: space-around;
+    color: black ;
+    list-style: none;
+    
+    
+ }
+ img{
+     align-self: flex-end;
+     width: 13%;
+     /* justify-items: end; */
+ }
+ ul > *{
+    margin: 7px;
+   
+}
+ 
