@@ -3,8 +3,9 @@ div{
     width: 80%;
     display: flex;
     justify-content: center;
-    margin-top: 35px;
+    margin-top: 70px;
     /* justify-content: space-around; */
+
     flex-wrap: wrap;
     text-align: center;
 
@@ -23,7 +24,12 @@ mdb-card{
     cursor: pointer;
     margin:30px;
 }
-
+ 
+.social-cards{
+    height: 50px;
+    border-radius: 20%;
+   
+}
 div > *{
     margin: 35px;
 }

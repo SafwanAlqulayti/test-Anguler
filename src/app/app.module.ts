@@ -10,6 +10,7 @@ import { NgbdCarouselBasic } from './ngbd-carousel-basic/ngbd-carousel-basic.com
 import { CardsComponent } from './cards/cards.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { FooterComponent } from './footer/footer.component';
+import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './footer/footer.component';
     PartnersComponent,
     NgbdCarouselBasic,
     CardsComponent,
-    FooterComponent
+    FooterComponent,
+    SliderComponent
   ],
   imports: [
     MDBBootstrapModule.forRoot() ,
