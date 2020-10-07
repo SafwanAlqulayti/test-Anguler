@@ -1,6 +1,6 @@
  
 nav{
-   height: 45px;
+   height: 90px;
    background-color: #fff;
 
   width: 100%;
@@ -26,8 +26,8 @@ nav{
     
     
  }
- img{
-     align-self: flex-end;
+ #logo{
+      align-self: flex-end;
      width: 13%;
      /* justify-items: end; */
  }
