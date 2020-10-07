@@ -7,3 +7,8 @@ div{
     justify-content: center;
     
 }
+div > h3{
+    padding-left: 20px;
+   
+
+}

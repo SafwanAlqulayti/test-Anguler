@@ -1,0 +1,41 @@
+div{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+mdb-card:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
+mdb-card{
+    width: 22%;
+    border: 0px solid;
+    border-radius: 7%;
+    height: 450px;
+    overflow: hidden ;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:30px;
+}
+
+div > *{
+    margin: 35px;
+}
+/* mdb-card > mdb-card-img{
+    min-width: 100%;
+    min-height: 100%
+} */
+mdb-card-body > div{
+        width: 200px;
+     
+}
+mdb-card-body >div >a > img{
+    height: 30px;
+    width: 30px;
+}
