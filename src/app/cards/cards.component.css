@@ -44,4 +44,11 @@ mdb-card-body > div{
 mdb-card-body >div >a > img{
     height: 30px;
     width: 30px;
-}
+ }
+
+ .card-body{
+ }
+ .end{
+    /* background-color: rgb(14, 106, 167); */
+
+ }

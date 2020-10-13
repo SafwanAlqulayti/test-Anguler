@@ -11,5 +11,7 @@ export class CardsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+test(){
+  document.getElementById('#test').style.color = 'blue'
+}
 }
